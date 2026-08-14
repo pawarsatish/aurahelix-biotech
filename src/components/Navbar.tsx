@@ -1,8 +1,8 @@
-import React, { useState } from 'react';
+import { useState } from 'react';
 import { motion, AnimatePresence } from 'framer-motion';
 import { Dna, Menu, X } from 'lucide-react';
 
-export default function Navbar() : React.JSX.Element {
+export default function Navbar() {
   const [mobileMenuOpen, setMobileMenuOpen] = useState(false);
   const menuItems = ['Innovation', 'Technology', 'Capabilities', 'Impact'];
 

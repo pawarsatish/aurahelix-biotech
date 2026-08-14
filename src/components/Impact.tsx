@@ -1,6 +1,6 @@
-import React from 'react';
 
-export default function Impact() : React.JSX.Element {
+
+export default function Impact() {
   const metrics = [
     { figure: "20+", context: "Validated Targets", minor: "Active clinical profiles" },
     { figure: "4.8M", context: "Data Nodes Mapped", minor: "Per deep matrix projection" },

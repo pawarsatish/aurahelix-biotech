@@ -1,8 +1,8 @@
-import React from 'react';
+
 import { motion } from 'framer-motion';
 import { Compass, ShieldCheck, Layers } from 'lucide-react';
 
-export default function Innovation() : React.JSX.Element {
+export default function Innovation() {
   const fadeUp = {
     hidden: { opacity: 0, y: 30 },
     visible: { opacity: 1, y: 0, transition: { duration: 0.6, ease: "easeOut" } }

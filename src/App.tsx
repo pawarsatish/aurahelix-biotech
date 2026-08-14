@@ -1,4 +1,4 @@
-import React from 'react';
+//import React from 'react';
 import Navbar from './components/Navbar';
 import Hero from './components/Hero';
 import Innovation from './components/Innovation';
@@ -7,7 +7,7 @@ import Capabilities from './components/Capabilities';
 import Impact from './components/Impact';
 import CTA from './components/CTA';
 
-export default function App() : React.JSX.Element {
+export default function App() {
   return (
     <div className="min-h-screen bg-gray-950 font-sans antialiased selection:bg-emerald-500/30 selection:text-emerald-300">
       

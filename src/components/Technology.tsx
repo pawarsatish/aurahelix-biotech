@@ -1,8 +1,8 @@
-import React, { useState } from 'react';
+import { useState } from 'react';
 import { motion, AnimatePresence } from 'framer-motion';
 import { Dna, Cpu, Database } from 'lucide-react';
 
-export default function Technology() : React.JSX.Element {
+export default function Technology() {
   const [activeTechTab, setActiveTechTab] = useState(0);
 
   const techTabs = [

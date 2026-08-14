@@ -1,6 +1,6 @@
-import React from 'react';
 
-export default function CTA() : React.JSX.Element {
+
+export default function CTA() {
   return (
     <section id="cta" className="max-w-4xl mx-auto px-6 py-24 text-center">
       <h2 className="text-4xl md:text-5xl font-bold tracking-tight text-white mb-6">
