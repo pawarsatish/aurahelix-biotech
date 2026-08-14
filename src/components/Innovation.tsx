@@ -3,22 +3,24 @@ import { motion } from 'framer-motion';
 import { Compass, ShieldCheck, Layers } from 'lucide-react';
 
 export default function Innovation() {
-  const fadeUp = {
+ const fadeUp: any = {
   hidden: { opacity: 0, y: 30 },
   visible: { 
     opacity: 1, 
     y: 0, 
     transition: { 
-      duration: 0.6,
+      duration: 0.6, 
       ease: [0.215, 0.610, 0.355, 1.000] 
     } 
   }
 };
 
-  const staggerContainer = {
-    hidden: { opacity: 0 },
-    visible: { opacity: 1, transition: { staggerChildren: 0.15 } }
-  };
+const staggerContainer: any = {
+  hidden: { opacity: 0 },
+  visible: { opacity: 1, transition: { staggerChildren: 0.15 } }
+};
+
+  
 
   return (
     <section id="innovation" className="max-w-7xl mx-auto px-6 py-24 border-t border-gray-900/40">
