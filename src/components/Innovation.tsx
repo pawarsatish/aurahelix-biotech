@@ -5,7 +5,7 @@ import { Compass, ShieldCheck, Layers } from 'lucide-react';
 export default function Innovation() {
   const fadeUp = {
     hidden: { opacity: 0, y: 30 },
-    visible: { opacity: 1, y: 0, transition: { duration: 0.6, ease: "easeOut" } }
+    visible: { opacity: 1, y: 0, transition: { duration: 0.6, ease: ease: [0.215, 0.610, 0.355, 1.000]  } }
   };
 
   const staggerContainer = {
