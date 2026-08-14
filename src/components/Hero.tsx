@@ -2,7 +2,7 @@ import React from 'react';
 import { motion } from 'framer-motion';
 import { Activity, Dna, ChevronRight } from 'lucide-react';
 
-export default function Hero() {
+export default function Hero() : React.JSX.Element {
   return (
     <section className="max-w-7xl mx-auto px-6 pt-16 pb-24 text-center flex flex-col items-center">
       <motion.div 

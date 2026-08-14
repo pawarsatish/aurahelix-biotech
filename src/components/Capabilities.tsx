@@ -1,7 +1,7 @@
 import React from 'react';
 import { ArrowUpRight } from 'lucide-react';
 
-export default function Capabilities() {
+export default function Capabilities() : React.JSX.Element {
   const cards = [
     { type: "Nucleic Acids", title: "Programmable mRNA Arrays", text: "Sequence structural designs targeting tailored expression boundaries while suppressing standard inflammatory signatures." },
     { type: "Proteins & Cells", title: "Bispecific Modality Envelopes", text: "Directing distinct surface cell interactions to map tumor sites without incurring typical systemic degradation risks." },
